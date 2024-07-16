@@ -11,7 +11,7 @@ async function getIngredients() {
         console.log(finalres.meals[i].strIngredient);
 
         document.querySelector(".ingredient_page").innerHTML += `
-          <div class="col-3 text-white text-center">
+          <div class="col-md-3 p-2 text-white text-center">
             <div onclick="getsIngredientsid(${i}),showDivForOneSecond()" class="text-white" >
              <i class="fa-solid fa-drumstick-bite" style="font-size:64px"></i>
              <h3 class="ingredient_name">${finalres.meals[i].strIngredient}</h3>
