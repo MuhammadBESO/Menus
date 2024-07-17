@@ -8,7 +8,7 @@ async function areaData() {
     
     for (let i = 0; i < finalres.meals.length; i++) {
       document.querySelector(".area_page").innerHTML += `
-          <div class="col-md-3">
+          <div class="col-md-3 text-center">
            <div onclick="getAreaid(${i}) ,showDivForOneSecond()" class="text-white" >
            <i class="fa-solid fa-house-laptop" style="font-size:64px"></i>
                 <h3 class="area_name">${finalres.meals[i].strArea}</h3>
