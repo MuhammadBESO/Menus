@@ -86,7 +86,7 @@ async function areaData() {
         document.querySelector(".meal_details_sec ").classList.remove("d-none");
         document.querySelector(".meal_detail").innerHTML = `
            <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
             <img class="w-100 rounded-3 " src="${finalres.meals[0].strMealThumb}" alt="" srcset="">
             <h2>${finalres.meals[0].strMeal}</h2>
         </div>
