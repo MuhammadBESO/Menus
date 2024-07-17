@@ -189,7 +189,7 @@ function getArea() {
 
 function getIngredients() {
     window.location.href = "ingredient.html";
-    areaData();
+    getIngredients()
 }
 function showDivForOneSecond() {
  
