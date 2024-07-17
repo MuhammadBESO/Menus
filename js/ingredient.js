@@ -186,6 +186,11 @@ function getArea() {
     window.location.href = "area.html";
     areaData();
 }
+
+function getIngredients() {
+    window.location.href = "ingredient.html";
+    areaData();
+}
 function showDivForOneSecond() {
  
   const myDiv = document.getElementById('myDiv');
