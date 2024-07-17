@@ -187,7 +187,7 @@ function getArea() {
     areaData();
 }
 
-function getIngredients() {
+function getIngredient() {
     window.location.href = "ingredient.html";
     getIngredients()
 }
