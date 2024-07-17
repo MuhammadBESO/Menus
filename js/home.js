@@ -15,7 +15,7 @@ async function getData() {
     for (let i = 0; i < finalres.meals.length; i++) {
         document.querySelector(".main_page_dishes").innerHTML += `
     
-          <div class="col-3">
+          <div class="col-md-3">
            <div onclick="getId(${i}),showDivForOneSecond()" class="position-relative rounded-3 meal_container overflow-hidden">
             <img class="img_main_page w-100 rounded-3 position-relative" src="${finalres.meals[i].strMealThumb}" alt="" srcset="">
             <div class="meal_layer position-absolute d-flex align-items-center ps-2">
