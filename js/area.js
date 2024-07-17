@@ -90,7 +90,7 @@ async function areaData() {
             <img class="w-100 rounded-3 " src="${finalres.meals[0].strMealThumb}" alt="" srcset="">
             <h2>${finalres.meals[0].strMeal}</h2>
         </div>
-        <div class="col-8">
+        <div class="col-md-8">
             <h2>Instructions</h2>
             <p>${finalres.meals[0].strInstructions}</p>
                 <h3 class="fw-bolder">Area : ${finalres.meals[0].strArea}</h3>
@@ -137,6 +137,7 @@ async function areaData() {
         li.classList.add("p-1")
         li.classList.add("rounded-3")
         li.classList.add("d-flex")
+      
       
        
        
