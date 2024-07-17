@@ -1,16 +1,4 @@
 
-window.addEventListener('unload', function (event) {
-    // Set a flag to return to the main page
-    sessionStorage.setItem('returnToMain', 'true');
-});
-
-window.addEventListener('load', function () {
-    if (sessionStorage.getItem('returnToMain')) {
-        sessionStorage.removeItem('returnToMain');
-     
-window.onload =  window.location.href = "index.html" // Change 'main.html' to your main page URL
-    }
-});
 async function getCategoriesinfo() {
 
     var res = await fetch("https://www.themealdb.com/api/json/v1/1/categories.php");
