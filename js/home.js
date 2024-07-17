@@ -180,9 +180,9 @@ function getArea() {
     window.location.href = "area.html";
     areaData();
 }
-function getIngredients() {
+function getIngredient() {
     window.location.href = "ingredient.html";
-    areaData();
+    getIngredients();
 }
 function showContacts(){
     window.location.href = "contact.html";
