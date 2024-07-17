@@ -23,7 +23,7 @@ for (let i = 0; i < finalres.categories.length; i++) {
 
    document.querySelector(".categorie_page").innerHTML+=`
    
-          <div class="col-3">
+          <div class="col-md-3">
            <div onclick="getCategoriesid(${i}),showDivForOneSecond()"  class="position-relative meal_container overflow-hidden">
             <img class="img_main_page w-100 rounded-3 position-relative" src="${finalres.categories[i]. strCategoryThumb}" alt="" srcset="">
             <div class="meal_layer position-absolute  ps-2">
@@ -57,7 +57,7 @@ function getCategoriesid(index) {
     for (let i = 0; i < finalres.meals.length; i++) {
         document.querySelector(".categories_page_dishes").innerHTML += `
     
-          <div class="col-3">
+          <div class="col-md-3">
            <div onclick="getCategorieIdDishes(${i}),showDivForOneSecond()"  class="position-relative meal_container overflow-hidden">
             <img class="img_main_page w-100 rounded-3 position-relative" src="${finalres.meals[i].strMealThumb}" alt="" srcset="">
             <div class="meal_layer position-absolute d-flex align-items-center ps-2">
@@ -104,11 +104,11 @@ console.log(finalres.meals[0]);
     document.querySelector(".meal_details_sec ").classList.remove("d-none");
     document.querySelector(".meal_detail").innerHTML = `
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
             <img class="w-100 rounded-3 " src="${finalres.meals[0].strMealThumb}" alt="" srcset="">
             <h2>${finalres.meals[0].strMeal}</h2>
         </div>
-        <div class="col-8">
+        <div class="col-md-8">
             <h2>Instructions</h2>
             <p>${finalres.meals[0].strInstructions}</p>
                 <h3 class="fw-bolder">Area : ${finalres.meals[0].strArea}</h3>
